@@ -1,7 +1,6 @@
 function twoNumberSum(array, targetSum) {
 	let sum = []
-  // loop through the array
-	console.log('target', targetSum)
+  	// loop through the array
 	array.forEach((num, i) => {
 	// loop through it again, as long as the index is not current index, see if sum is target
 		array.forEach((num2, index) => {
